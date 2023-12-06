@@ -58,3 +58,4 @@ class Channel(Messageable):
 
     def _fetch_websocket(self):
         return self._ws  # Abstract method
+
