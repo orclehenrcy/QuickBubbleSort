@@ -64,3 +64,4 @@ class Channel(Messageable):
 
     def _bot_is_mod(self):
 Copyright (c) 2017-present TwitchIO
+
