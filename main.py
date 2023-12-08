@@ -65,3 +65,4 @@ class Channel(Messageable):
     def _bot_is_mod(self):
 Copyright (c) 2017-present TwitchIO
 
+Permission is hereby granted, free of charge, to any person obtaining a
