@@ -109,3 +109,4 @@ class Channel(Messageable):
         self._ws = websocket
 
     def __eq__(self, other):
+        return other.name == self._name
