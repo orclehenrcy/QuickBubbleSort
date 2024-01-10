@@ -112,3 +112,4 @@ class Channel(Messageable):
         return other.name == self._name
 
     def __hash__(self):
+        return hash(self.name)
