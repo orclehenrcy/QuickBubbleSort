@@ -118,3 +118,4 @@ class Channel(Messageable):
         return f"<Channel name: {self.name}>"
 
     def _fetch_channel(self):
+        return self  # Abstract method
