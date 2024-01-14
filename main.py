@@ -117,3 +117,4 @@ class Channel(Messageable):
     def __repr__(self):
         return f"<Channel name: {self.name}>"
 
+    def _fetch_channel(self):
