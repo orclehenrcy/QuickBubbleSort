@@ -127,3 +127,4 @@ class Channel(Messageable):
         return self._message  # Abstract method
 
     def _bot_is_mod(self):
+        try:
