@@ -132,3 +132,4 @@ class Channel(Messageable):
         except KeyError:
             return False
 
+        for user in cache:
