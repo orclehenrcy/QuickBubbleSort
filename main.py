@@ -137,3 +137,4 @@ class Channel(Messageable):
                 try:
                     mod = user.is_mod
                 except AttributeError:
+                    return False
