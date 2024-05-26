@@ -147,3 +147,4 @@ class Channel(Messageable):
         return self._name
 
     @property
+    def chatters(self) -> Optional[Set[Union[Chatter, PartialChatter]]]:
