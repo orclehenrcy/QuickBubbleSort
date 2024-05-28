@@ -152,3 +152,4 @@ class Channel(Messageable):
         try:
             chatters = self._ws._cache[self._name]  # noqa
         except KeyError:
+            return None
