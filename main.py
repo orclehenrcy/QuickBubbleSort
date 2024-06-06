@@ -164,3 +164,4 @@ class Channel(Messageable):
         name: str
             The chatter's name to try and retrieve.
 
+        Returns
