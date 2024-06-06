@@ -161,3 +161,4 @@ class Channel(Messageable):
 
         Parameters
         -----------
+        name: str
