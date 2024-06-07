@@ -166,3 +166,4 @@ class Channel(Messageable):
 
         Returns
         --------
+        Union[:class:`twitchio.chatter.Chatter`, :class:`twitchio.chatter.PartialChatter`]
