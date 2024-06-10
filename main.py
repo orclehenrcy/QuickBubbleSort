@@ -168,3 +168,4 @@ class Channel(Messageable):
         --------
         Union[:class:`twitchio.chatter.Chatter`, :class:`twitchio.chatter.PartialChatter`]
             Could be a :class:`twitchio.user.PartialChatter` depending on how the user joined the channel.
+            Returns None if no user was found.
