@@ -170,3 +170,4 @@ class Channel(Messageable):
             Could be a :class:`twitchio.user.PartialChatter` depending on how the user joined the channel.
             Returns None if no user was found.
         """
+        name = name.lower()
