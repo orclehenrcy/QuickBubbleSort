@@ -172,3 +172,4 @@ class Channel(Messageable):
         """
         name = name.lower()
 
+        try:
