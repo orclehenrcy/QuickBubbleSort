@@ -171,3 +171,4 @@ class Channel(Messageable):
             Returns None if no user was found.
         """
         name = name.lower()
+
