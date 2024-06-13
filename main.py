@@ -173,3 +173,4 @@ class Channel(Messageable):
         name = name.lower()
 
         try:
+            cache = self._ws._cache[self._name]  # noqa
