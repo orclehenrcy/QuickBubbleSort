@@ -177,3 +177,4 @@ class Channel(Messageable):
             for chatter in cache:
                 if chatter.name == name:
                     return chatter
+
