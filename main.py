@@ -176,3 +176,4 @@ class Channel(Messageable):
             cache = self._ws._cache[self._name]  # noqa
             for chatter in cache:
                 if chatter.name == name:
+                    return chatter
