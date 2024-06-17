@@ -179,3 +179,4 @@ class Channel(Messageable):
                     return chatter
 
             return None
+        except KeyError:
