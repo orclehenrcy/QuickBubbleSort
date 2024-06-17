@@ -178,3 +178,4 @@ class Channel(Messageable):
                 if chatter.name == name:
                     return chatter
 
+            return None
