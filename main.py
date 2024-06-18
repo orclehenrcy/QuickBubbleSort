@@ -182,3 +182,4 @@ class Channel(Messageable):
         except KeyError:
             return None
 
+    async def user(self, force=False) -> "User":
