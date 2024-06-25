@@ -184,3 +184,4 @@ class Channel(Messageable):
 
     async def user(self, force=False) -> "User":
         """|coro|
+
