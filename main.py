@@ -185,3 +185,4 @@ class Channel(Messageable):
     async def user(self, force=False) -> "User":
         """|coro|
 
+        Fetches the User from the api.
