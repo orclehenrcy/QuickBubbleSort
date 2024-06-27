@@ -186,3 +186,4 @@ class Channel(Messageable):
         """|coro|
 
         Fetches the User from the api.
+
