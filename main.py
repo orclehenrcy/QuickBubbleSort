@@ -188,3 +188,4 @@ class Channel(Messageable):
         Fetches the User from the api.
 
         Parameters
+        -----------
