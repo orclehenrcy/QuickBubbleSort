@@ -189,3 +189,4 @@ class Channel(Messageable):
 
         Parameters
         -----------
+        force: :class:`bool`
