@@ -192,3 +192,4 @@ class Channel(Messageable):
         force: :class:`bool`
             Whether to force a fetch from the api, or try and pull from the cache. Defaults to `False`
 
+        Returns
