@@ -194,3 +194,4 @@ class Channel(Messageable):
 
         Returns
         --------
+        :class:`twitchio.User` the user associated with the channel
