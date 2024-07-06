@@ -196,3 +196,4 @@ class Channel(Messageable):
         --------
         :class:`twitchio.User` the user associated with the channel
         """
+        return (await self._ws._client.fetch_users(names=[self._name], force=force))[0]
