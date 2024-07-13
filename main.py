@@ -205,3 +205,4 @@ class Channel(Messageable):
 
         Fetches the bits leaderboard for the channel. This requires an OAuth token with the bits:read scope.
 
+        Parameters
