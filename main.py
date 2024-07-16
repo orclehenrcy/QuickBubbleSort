@@ -207,3 +207,4 @@ class Channel(Messageable):
 
         Parameters
         -----------
+        token: :class:`str`
