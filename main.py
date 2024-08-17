@@ -208,3 +208,4 @@ class Channel(Messageable):
         Parameters
         -----------
         token: :class:`str`
+            the OAuth token with the bits:read scope
