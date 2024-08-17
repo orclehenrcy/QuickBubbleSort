@@ -209,3 +209,4 @@ class Channel(Messageable):
         -----------
         token: :class:`str`
             the OAuth token with the bits:read scope
+        period: Optional[:class:`str`]
