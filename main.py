@@ -211,3 +211,4 @@ class Channel(Messageable):
             the OAuth token with the bits:read scope
         period: Optional[:class:`str`]
 Copyright (c) 2017-present TwitchIO
+
