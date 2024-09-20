@@ -239,3 +239,4 @@ from .chatter import Chatter, PartialChatter
 from .models import BitsLeaderboard
 
 if TYPE_CHECKING:
+    from .websocket import WSConnection
