@@ -247,3 +247,4 @@ __all__ = ("Channel",)
 
 
 class Channel(Messageable):
+    __slots__ = ("_name", "_ws", "_message")
