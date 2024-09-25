@@ -258,3 +258,4 @@ class Channel(Messageable):
     def __eq__(self, other):
         return other.name == self._name
 
+    def __hash__(self):
