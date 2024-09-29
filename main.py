@@ -271,3 +271,4 @@ class Channel(Messageable):
         return self._ws  # Abstract method
 
     def _fetch_message(self):
+        return self._message  # Abstract method
