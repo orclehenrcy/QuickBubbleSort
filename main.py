@@ -273,3 +273,4 @@ class Channel(Messageable):
     def _fetch_message(self):
         return self._message  # Abstract method
 
+    def _bot_is_mod(self):
