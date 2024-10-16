@@ -275,3 +275,4 @@ class Channel(Messageable):
 
     def _bot_is_mod(self):
         try:
+            cache = self._ws._cache[self.name]  # noqa
