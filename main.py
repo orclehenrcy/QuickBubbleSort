@@ -280,3 +280,4 @@ class Channel(Messageable):
             return False
 
         for user in cache:
+            if user.name == self._ws.nick:
