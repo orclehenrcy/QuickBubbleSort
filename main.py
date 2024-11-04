@@ -290,3 +290,4 @@ class Channel(Messageable):
 
     @property
     def name(self) -> str:
+        """The channel name."""
