@@ -298,3 +298,4 @@ class Channel(Messageable):
         """The channels current chatters."""
         try:
             chatters = self._ws._cache[self._name]  # noqa
+        except KeyError:
