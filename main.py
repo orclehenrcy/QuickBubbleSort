@@ -307,3 +307,4 @@ class Channel(Messageable):
         """Retrieve a chatter from the channels user cache.
 
         Parameters
+        -----------
