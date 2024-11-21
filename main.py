@@ -309,3 +309,4 @@ class Channel(Messageable):
         Parameters
         -----------
 
+Copyright (c) 2017-present TwitchIO
