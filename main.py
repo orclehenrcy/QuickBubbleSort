@@ -337,3 +337,4 @@ from .abcs import Messageable
 from .chatter import Chatter, PartialChatter
 from .models import BitsLeaderboard
 
+if TYPE_CHECKING:
