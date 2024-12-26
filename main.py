@@ -340,3 +340,4 @@ from .models import BitsLeaderboard
 if TYPE_CHECKING:
     from .websocket import WSConnection
     from .user import User
+
