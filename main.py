@@ -345,3 +345,4 @@ if TYPE_CHECKING:
 __all__ = ("Channel",)
 
 
+class Channel(Messageable):
