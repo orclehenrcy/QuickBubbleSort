@@ -369,3 +369,4 @@ class Channel(Messageable):
     def _fetch_websocket(self):
         return self._ws  # Abstract method
 
+    def _fetch_message(self):
