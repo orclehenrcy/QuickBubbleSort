@@ -381,3 +381,4 @@ class Channel(Messageable):
         for user in cache:
             if user.name == self._ws.nick:
                 try:
+                    mod = user.is_mod
