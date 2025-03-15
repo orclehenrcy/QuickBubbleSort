@@ -385,3 +385,4 @@ class Channel(Messageable):
                 except AttributeError:
                     return False
 
+                return mod
