@@ -386,3 +386,4 @@ class Channel(Messageable):
                     return False
 
                 return mod
+
