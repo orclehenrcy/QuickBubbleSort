@@ -387,3 +387,4 @@ class Channel(Messageable):
 
                 return mod
 
+    @property
