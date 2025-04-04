@@ -392,3 +392,4 @@ class Channel(Messageable):
         """The channel name."""
         return self._name
 
+    @property
