@@ -396,3 +396,4 @@ class Channel(Messageable):
     def chatters(self) -> Optional[Set[Union[Chatter, PartialChatter]]]:
         """The channels current chatters."""
         try:
+            chatters = self._ws._cache[self._name]  # noqa
