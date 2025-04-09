@@ -400,3 +400,4 @@ class Channel(Messageable):
         except KeyError:
             return None
 
+        return chatters
