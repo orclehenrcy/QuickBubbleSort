@@ -404,3 +404,4 @@ class Channel(Messageable):
 
     def get_chatter(self, name: str) -> Optional[Union[Chatter, PartialChatter]]:
         """Retrieve a chatter from the channels user cache.
+
