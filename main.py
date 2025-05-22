@@ -448,3 +448,4 @@ class Channel(Messageable):
     __slots__ = ("_name", "_ws", "_message")
 
     __messageable_channel__ = True
+
