@@ -451,3 +451,4 @@ class Channel(Messageable):
 
     def __init__(self, name: str, websocket: "WSConnection"):
         self._name = name
+        self._ws = websocket
