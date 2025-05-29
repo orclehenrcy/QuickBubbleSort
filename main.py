@@ -453,3 +453,4 @@ class Channel(Messageable):
         self._name = name
         self._ws = websocket
 
+    def __eq__(self, other):
