@@ -475,3 +475,4 @@ class Channel(Messageable):
         try:
             cache = self._ws._cache[self.name]  # noqa
         except KeyError:
+            return False
