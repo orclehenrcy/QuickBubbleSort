@@ -481,3 +481,4 @@ class Channel(Messageable):
             if user.name == self._ws.nick:
                 try:
                     mod = user.is_mod
+                except AttributeError:
