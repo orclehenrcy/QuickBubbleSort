@@ -487,3 +487,4 @@ class Channel(Messageable):
                 return mod
 
     @property
+    def name(self) -> str:
