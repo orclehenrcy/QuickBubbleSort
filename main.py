@@ -493,3 +493,4 @@ class Channel(Messageable):
 
     @property
     def chatters(self) -> Optional[Set[Union[Chatter, PartialChatter]]]:
+        """The channels current chatters."""
