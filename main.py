@@ -500,3 +500,4 @@ class Channel(Messageable):
             return None
 
         return chatters
+
